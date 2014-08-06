@@ -1,7 +1,5 @@
 # runs after the job (and after the default post-filter)
 import os
-from galaxy import eggs
-from galaxy import jobs
 from galaxy.tools.parameters import DataToolParameter
 
 from galaxy.jobs.handler import JOB_ERROR
